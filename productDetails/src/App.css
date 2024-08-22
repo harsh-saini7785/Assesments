@@ -1,0 +1,28 @@
+#root {
+  
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.ant-table-content::-webkit-scrollbar {
+  width: 3px;
+  /* width of the entire scrollbar */
+}
+
+.ant-table-content::-webkit-scrollbar-track {
+  background: orange;
+  /* color of the tracking area */
+}
+
+.ant-table-content::-webkit-scrollbar-thumb {
+  background-color: blue;
+  /* color of the scroll thumb */
+  border-radius: 20px;
+  /* roundness of the scroll thumb */
+  border: 3px solid orange;
+  /* creates padding around scroll thumb */
+}
